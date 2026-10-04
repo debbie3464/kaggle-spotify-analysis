@@ -6,25 +6,24 @@ Exploratory data analysis and visualization of Spotify track audio features usin
 Exploratory data analysis of Spotify tracks, looking at how audio features like danceability, energy and valence relate to track popularity.
 
 ## Dataset
-- Source: [Kaggle dataset name](link-to-dataset)
-- [X] tracks, [Y] columns, covering [year range]
+- Source: [Spotify: Winner Tracks Audio Features] https://www.kaggle.com/datasets/sejungjenn/spotify-best-songs-of-2022/datas, [Y] columns, covering [year range]
 - Key columns: `track_popularity`, `artist_popularity`, `artist_genres`, `danceability`, `energy`, `valence`, `tempo`, `loudness`, `acousticness`, and more
 
 ## Questions I Explored
-1. Which audio features are most correlated with track popularity?
-2. How have features like energy and loudness changed over the years?
-3. Which genres are the most popular, and how do they differ in sound?
-4. Does artist popularity or followers predict track popularity?
 
+1. **Is it who you are or what you sound like?** Does an artist's fame (followers) predict a hit's popularity better than its audio features do?
+2. **How have hit songs changed from 2018 to 2022?**
+3. **What does each genre sound like, and which perform best?**
+4. **Which songs are breakout hits?** Which tracks are far more popular than their artist's following would predict?
+5. **Do hits share a tempo?** Is there a "sweet spot" BPM among hits?
 ## Key Findings
 -  (yet to be filled)
 
 ## Visualizations
-![Correlation heatmap](images/heatmap.png)
-![Feature trends over time](images/trends.png)
+
 
 ## Tools Used
-Python, pandas, NumPy, Plotly, Google Colab
+Python, pandas, NumPy, Seaborn, Google Colab
 
 ## Project Structure
 ```
